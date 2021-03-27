@@ -1,0 +1,23 @@
+header{
+  width: 100vw;
+  height: 20vh;
+  padding: 1rem;
+  background-color: rgb(70, 160, 70);
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+header > .menu{
+  height: 100%;
+  /* width: 30%; */
+  display: flex;  
+  /* align-items: center; */
+  justify-content: space-evenly;
+  flex-direction: column;
+}
+
+header > .menu .icon{
+
+}

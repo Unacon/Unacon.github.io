@@ -1,0 +1,72 @@
+.section-01{
+  width: 100vw;
+  height: auto;
+  padding: 1rem;
+
+  background-color: rgb(1, 56, 1);
+  color: white;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
+}
+
+.section-01 > span{
+  padding-bottom: 0.5rem;
+  font-size: 1.5rem;  
+}
+
+.section-01 > .ct{
+  width: 100%;
+  height: 100%;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.section-01 > .ct > .know{
+  width: 100%;
+  height: 30%;
+  background-color: rgb(40, 85, 40);
+  border: 5px solid rgb(1, 56, 1);
+  padding:0.5rem;  
+
+  display: flex;
+  align-items: center;
+  /* justify-content: center; */
+  flex-direction: column;
+}
+
+.section-01 > .ct span{
+  color: black;
+}
+
+.section-01 > .ct > .know .date{
+  padding:0.5rem;
+  color: black;
+}
+
+.section-01 > .ct > .know .title{
+  width: 100%;  
+  height: 30%;  
+  background-color: rgb(148, 245, 148);
+
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: row;
+}
+
+.section-01 > .ct > .know .img{
+ height: 100%;
+ width: 100%;
+ max-width: 100%;
+}
+
+.section-01 > .ct > .know > .title > .img img{
+  height: 20px;
+  width: auto;  
+}
