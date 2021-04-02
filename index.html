@@ -5,22 +5,29 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="./assests/css/global.css">
-
+  <script src="https://kit.fontawesome.com/5497a3d25f.js" crossorigin="anonymous"></script>
+  
   <title>JoãoVitorMP</title>
 </head>
 <body>
   <header>
-     <div class="slogan">
+      <div class="slogan">
        <img src="./assests/img/slogan.png" alt="">
       </div>
-     <div class="menu">
-       <div class="icon">Inicio</div>
-       <div class="icon"><a href="#project">PROJETOS</a></div>
-       <!-- <div class="icon">Sobre Mim</div> -->
-       <div class="icon">Contato</div>
-     </div>
+      <nav class="bar_mobile">      
+        <label for="check" class="checkbtn">
+          <i class="fas fa-bars"></i>
+        </label>
+      </nav>
+      <input type="checkbox" id="check">
+      <nav class="bar" for="check">         
+        <a class="bar_item" href="#header">INICIO</a>
+        <a class="bar_item" href="#project">PROJETOS</a>
+        <a class="bar_item" href="#know">CONHECIMENTOS</a>
+        <a class="bar_item" href="#">CONTATO</a>                         
+      </nav>
   </header>
-  <section class="section-01">
+  <section class="section-01" id="know">
      <h1>CONHECIMENTOS</h1>
      <div class="ct">
         <div class="know">
