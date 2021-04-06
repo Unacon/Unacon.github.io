@@ -80,8 +80,8 @@ header > .bar_mobile label{
     height: 50vh;
     top: 80px;
     left: -100%;
-    background-color: rgb(40, 134, 40);
-
+    background-color: #fff;
+    transition: .6s;
     flex-direction: column;
 		/* left: -100%;
 		text-align: center;
@@ -97,7 +97,7 @@ header > .bar_mobile label{
   }
 
   header nav.bar > .bar_item:hover{
-    background-color: rgb(25, 126, 25);
+    background-color: #a9a9a9;
     margin: 0.5rem;
     transition: .6s;
   }
