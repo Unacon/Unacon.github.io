@@ -2,15 +2,14 @@
   width: 100%;
   /* height: 100vh; */
   padding: 1rem;
-
-  background-color: indigo;
-  color: white;
+  background-image: linear-gradient(to bottom, #fff , #a9a9a9);
+  background-color: #fff;
+  
+  color: #000;
 
   display: flex;
   align-items: center;
-  justify-content: space-around;
   flex-direction: column;
-  flex-wrap: wrap;
 }
 
 .project h1{
@@ -27,7 +26,7 @@
 
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: space-evenly;
   flex-wrap: wrap;
 
 }
@@ -38,9 +37,10 @@
   width: 100%;
   /* height: 320px; */
 
-  background-color: rgb(19, 36, 19);
+  background-color: #a9a9a9;
+  margin-bottom: 2rem;
   padding:0.5rem;
-  border: 5px solid indigo;
+  border: 5px solid #a9a9a9;
 
   display: flex;
   align-items: center;
@@ -48,10 +48,12 @@
   flex-direction: column;
 }
 
+
+
 .project > .container > .box h3{
   width: 100%;
   text-align: center; 
-  color: white; 
+  color: black; 
   margin-bottom: 0.5rem;
 }
 .project > .container > .box h3::after{
@@ -59,7 +61,7 @@
   height: 2px;
   width: 100%;
   display: block;
-  background-color: indigo;
+  background-color: black;
 }
 
 .project > .container > .box .contains{
@@ -73,13 +75,12 @@
 
 .project > .container > .box .descrition{
   width: 100%;
-  background-color: #091309;
+  background-color: black;
    
   padding: 0.5rem;
   text-align: center;
-  color: white;
-
-  padding: 0.2rem;
+  color: #a9a9a9;
+  border-radius: 25px;
   margin: 0.5rem;
 }
 .project > .container > .box .button_project{  
@@ -88,10 +89,11 @@
   border-radius: 5px;
   cursor: pointer;
   transition: all 2s;
+  border-radius: 25px;
 }
 
 .project > .container > .box .button_project:hover{
-  font-size: 1.5rem;
+  font-size: 1.2rem;
 }
 
 .project > .container > .box img{
@@ -111,9 +113,4 @@
     height: 320px;
     justify-content: space-around;
   }
-}
-
-/* Large Devices - Desktop */
-@media (min-width: 992px){
-  /* CSS */
 }
