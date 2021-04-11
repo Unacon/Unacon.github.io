@@ -1,6 +1,7 @@
 @import url('./header.css');
 @import url('./section-01.css');
 @import url('./project.css');
+@import url('./footer.css');
 
 *{
   margin: 0;

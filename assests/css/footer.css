@@ -1,0 +1,68 @@
+footer{
+  width: 100%; 
+  background-color: #121212;
+  color: #fff;
+  padding-top: 2rem;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;     
+}
+
+footer > .container{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly; 
+}
+
+footer > .container > .link{
+  padding-right: 1rem;
+  padding-left: 1rem;
+}
+
+footer > .container > .link .icon{
+  width: 3rem;
+  height: 3rem;
+  background-color: #121212;
+  border: 2px solid #fff;
+  border-radius: 100%;
+  font-size: 1.2rem;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  transition: all 2s;
+}
+
+footer > .container > .link .icon:hover{
+  width: 4rem;
+  height: 4rem;
+  font-size: 1.5rem;
+}
+
+footer > .container > .link > .icon a{
+  color: #fff;
+}
+
+footer > .title{
+  color: #fff;
+  font-size: 1.5rem;    
+  letter-spacing: 1.2px;
+  margin-bottom: 0.5rem;
+}
+
+footer > .copyright{
+  width: 100%;
+  margin-top: 1rem;
+  background-color: #212529;
+  color: #fff;
+
+  text-align: center;
+  padding: 1rem 1rem;
+}
+
+footer > .copyright i{
+  font-size: 0.7rem;
+}
